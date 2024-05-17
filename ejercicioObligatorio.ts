@@ -1,4 +1,3 @@
-import * as rls from 'readline-sync';
 
 let numeroMayor:number= 0
 
@@ -15,3 +14,11 @@ function calcularMaximo() {
 }
 calcularMaximo();
 console.log ("El numero mayor del arreglo es: ",numeroMayor);
+
+function parImpar () {
+    if(numeroMayor % 2 == 0)
+        console.log ("El numero mayor es par");
+    else
+    console.log ("El numero mayor es impar");
+}
+parImpar()
